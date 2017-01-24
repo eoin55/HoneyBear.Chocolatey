@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>honeybear.editplus</id>
+    <title>HoneyBear.EditPlus (Install)</title>
+    <version>1.0.0</version>
+    <authors>Eoin O'Connor</authors>
+    <owners>Eoin O'Connor</owners>
+    <description>Interactive (GUI) install of EditPlus 3</description>
+    <projectUrl>https://github.com/eoin55/HoneyBear.Chocolatey</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+  </metadata>
+</package>
