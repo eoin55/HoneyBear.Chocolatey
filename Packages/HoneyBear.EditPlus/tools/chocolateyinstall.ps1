@@ -17,7 +17,7 @@ $fileLocation = Join-Path $toolsDir 'epp300_en.exe'
 
 Write-Host "token=$token"
 
-curl -H @{Authorization = $token; Accept = 'application/vnd.github.v3.raw';} -O "$toolsDir\epp300_en.exe" https://raw.githubusercontent.com/eoin55/HoneyBear.Chocolatey.Storage.Secure/master/EditPlus/epp300_en.exe
+curl -H @{Authorization = $token; Accept = 'application/vnd.github.v3.raw';} -O "$toolsDir\epp300_en.exe" https://github.com/eoin55/HoneyBear.Chocolatey.Storage.Secure/raw/master/EditPlus/epp300_en.exe
 
 $packageArgs = @{
   packageName   = $packageName
